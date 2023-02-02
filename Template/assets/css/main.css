@@ -3698,7 +3698,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-color: #303639;
+		background-color: ##08294F;
 		color: #ffffff;
 		padding: 7em 0 5em 0 ;
 		background-image: -moz-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
