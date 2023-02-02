@@ -3698,13 +3698,13 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-color: ##08294F;
+		background-color: #08294F;
 		color: #ffffff;
 		padding: 7em 0 5em 0 ;
-		background-image: -moz-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(to top, rgba(58,60,173,1.0), rgba(58,60,173,1.0)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(to top, rgba(58,60,173,1.0), rgba(58,60,173,1.0)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(to top, rgba(58,60,173,1.0), rgba(58,60,173,1.0)), url("../../images/banner.jpg");
+		background-image: linear-gradient(to top, rgba(58,60,173,1.0), rgba(58,60,173,1.0)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
@@ -3731,7 +3731,7 @@ input, select, textarea {
 		}
 
 		#footer code {
-			background: rgba(255, 255, 255, 0.075);
+			background: rgba(58,60,173,1.0);
 			border-color: #ffffff;
 		}
 
@@ -3762,7 +3762,7 @@ input, select, textarea {
 				#footer input[type="button"]:hover:active,
 				#footer button:hover:active,
 				#footer .button:hover:active {
-					background-color: rgba(255, 255, 255, 0.15);
+					background-color: rgba(58,60,173,1.0);
 				}
 
 			#footer input[type="submit"].disabled, #footer input[type="submit"]:disabled,
@@ -3911,7 +3911,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				background: #303639;
+				background: #130e58;
 			}
 
 				#footer > .inner {
