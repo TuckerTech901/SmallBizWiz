@@ -1,0 +1,11 @@
+{
+  "name": "smallbizwiz",
+  "version": "1.0.0",
+  "description": "Small Business Application to keep track of Quarterly Expenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katrina Tucker",
+  "license": "ISC"
+}
