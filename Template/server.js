@@ -11,7 +11,6 @@ app.listen(3000, function() {
 //     res.send('Hello World')
 //   })
 
-app.get('/', (req, res) => {
-    res.sendFile(/BUILD BUILD PROJECTS/SmallBizzWizz/SmallBizWiz/Template/index.html)
-
-})
+  app.get('/', (req, res) => {
+    res.sendFile(__dirname + 'index.html')
+  })
