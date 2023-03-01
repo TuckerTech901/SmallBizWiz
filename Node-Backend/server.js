@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require ('body-parser')
 const app = express()
 const MongoClient = require('mongodb').MongoClient
-const connectionString= 'mongodb+srv://katrinatucker901:Leland1941@smallbizzwizz.soa3spq.mongodb.net/?retryWrites=true&w=majority'
+const connectionString = 'mongodb+srv://katrinatucker901:Leland1941@smallbizzwizz.soa3spq.mongodb.net/?retryWrites=true&w=majority'
 
 MongoClient.connect(connectionString, (err, client) => {
   if (err) return console.error(err)
